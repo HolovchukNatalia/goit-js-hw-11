@@ -8,5 +8,5 @@ import{a as p,S as d,i as u}from"./assets/vendor-DYLXiCJH.js";(function(){const 
           <p>Comments <span>${r.comments}</span></p>
           <p>Downloads <span>${r.downloads}</span></p>
         </div>
-      </li>`).join("");i.innerHTML=t,g.refresh()}const L=document.querySelector(".form"),l=document.querySelector(".input"),c=document.querySelector(".loader"),b=document.querySelector(".gallery");L.addEventListener("submit",function(s){s.preventDefault();const t=l.value.trim();if(t===""){u.show({message:"Please enter a search query",position:"topRight",backgroundColor:"red"});return}c.style.display="block",b.innerHTML="",l.value="",m(t).then(r=>{setTimeout(()=>{h(r),c.style.display="none"},1e3)})});
+      </li>`).join("");i.innerHTML=t,g.refresh()}const L=document.querySelector(".form"),l=document.querySelector(".input"),c=document.querySelector(".loader"),b=document.querySelector(".gallery");L.addEventListener("submit",function(s){s.preventDefault();const t=l.value.trim();if(t===""){u.show({message:"Please enter a search query",position:"topRight",backgroundColor:"red"});return}c.style.display="block",b.innerHTML="",l.value="",m(t).then(r=>{h(r),c.style.display="none"})});
 //# sourceMappingURL=index.js.map
