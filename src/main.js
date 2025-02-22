@@ -27,9 +27,9 @@ form.addEventListener('submit', function (event) {
   input.value = '';
 
   fetchImages(query).then(images => {
-    setTimeout(() => {
+    // setTimeout(() => {
       renderImages(images);
       loader.style.display = 'none';
-    }, 1000);
+    // }, 1000);
   });
 });
